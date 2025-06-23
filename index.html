@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milky Way Explorer</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="#home">Milky Way Galaxy</a></li>
+            <li><a href="#stars">The STARS</a></li>
+            <li><a href="#planets">Planets</a></li>
+            <li><a href="#moon">MOON</a></li>   
+        </ul>
+    </div>
+    <section id="home"> 
+        <h1> The Milky Way Galaxy</h1>
+        <p>
+            The Milky Way is a massive spiral galaxy containing over 200 billion stars, including our Sun.
+            It's about 100,000 light-years wide and features a supermassive black hole at its center called Sagittarius A*.
+            Our solar system is located about 27,000 light-years from the center, and it takes roughly 225 million years to orbit once.
+            The Milky Way is still forming stars and will eventually merge with the Andromeda galaxy in a few billion years
+        </p>
+    </section>
+
+    <section id="stars">
+        <h1> The STARS</h1>
+        <p>Here are some interesting information about the star you never knew of! </p>
+        <ul>
+            <li>Stars are giant glowing balls of gas powered by nuclear fusion</li>
+            <li>They range from small red dwarfs to massive blue supergiants</li>
+            <li>The Sun is a yellow dwarf — a medium-sized, middle-aged star</li>
+            <li>It's the closest star to Earth and essential for life </li>
+            <li>Stars have life cycles: birth, main sequence, red giant, and death</li>
+            <li>The Sun will become a white dwarf in billions of years</li>
+        </ul>
+    </section>
+    <section id="planets">
+        <h1> Planets</h1>
+        <div class="planet-grid">
+            <div class="planet" onclick="toggleFact('mercury')">
+              Mercury
+              <div class="planet-fact hidden" id="mercury">The smallest planet, closest to the Sun.</div>
+            </div> 
+            <div class="planet" onclick="toggleFact('venus')">
+                Venus 
+                <div class="planet-fact hidden" id="venus">The hottest planet in the solar system, with clouds of acid and surface temperatures hot enough to melt lead. </div>
+            </div>
+            <div class="planet" onclick="toggleFact('earth')">
+                Earth 
+                <div class="planet-fact hidden" id="earth">The only planet known to support life, with liquid water and a breathable atmosphere.</div>
+            </div>
+            <div class="planet" onclick="toggleFact('mars')">
+                Mars
+                <div class="planet-fact hidden" id="mars"> Known as the Red Planet. It has the tallest volcano in the solar system — Olympus Mons.</div>
+            </div>
+            <div class="planet" onclick="toggleFact('jupiter')">
+                Jupiter 
+                <div class="planet-fact hidden" id="jupiter">The largest planet, famous for its Great Red Spot — a giant storm that's been raging for centuries.</div>
+            </div>
+            <div class="planet" onclick="toggleFact('saturn')">
+                Saturn 
+                <div class="planet-fact hidden" id="saturn"> The largest planet, famous for its Great Red Spot — a giant storm that's been raging for centuries.</div>
+    
+            </div>
+            <div class="planet" onclick="toggleFact('uranus')">
+                Uranus 
+                <div class="planet-fact hidden" id="uranus"> Spins on its side and has a bluish color due to methane in its atmosphere.</div>
+            </div>
+            <div class="planet" onclick="toggleFact('neptune')">
+                Neptune 
+                <div class="planet-fact hidden" id="neptune">The coldest and windiest planet, with supersonic winds reaching up to 1,200 mph (2,000 km/h).</div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="moon">
+        <h1>THE MOON</h1>
+        <p>
+            The Moon is Earth’s only natural satellite and plays a vital role in stabilizing our planet’s tilt and causing tides. 
+            It’s about one-quarter the size of Earth and has a surface covered in craters, mountains, and flat plains called “maria.” 
+            The Moon orbits Earth every 27.3 days and always shows the same face due to synchronous rotation.
+            It’s also the only celestial body beyond Earth that humans have visited.
+        </p>
+
+    </section>
+
+
+    <script src="assets/script.js"></script> 
+</body>
+</html>
